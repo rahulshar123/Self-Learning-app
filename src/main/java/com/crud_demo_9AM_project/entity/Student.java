@@ -10,20 +10,20 @@ import javax.persistence.Id;
 
 public class Student {
 
-	@Id
-	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	private long id;
-	private String name;
-	private String course;
+	// @Id
+	// @GeneratedValue(strategy = GenerationType.IDENTITY)
+	// private long id;
+	// private String name;
+	// private String course;
 	
-	@Column(name = "sfee")
-	private int fee;
+	// @Column(name = "sfee")
+	// private int fee;
 	
-	public long getId() {
-		return id;
-	}
-	public void setId(long id) {
-		this.id = id;
+	// public long getId() {
+	// 	return id;
+	// }
+	// public void setId(long id) {
+	// 	this.id = id;
 	}
 	public String getName() {
 		return name;
